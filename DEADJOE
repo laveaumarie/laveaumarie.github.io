@@ -1,0 +1,21 @@
+
+*** These modified files were found in JOE when it aborted on Wed Nov 24 15:40:54 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+:x
+x
+
+*** File '(Unnamed)'
+Merge
+
+*** File '(Unnamed)'
+/home/laveaum/Documents/github/le-grid-async-self-stab/.git/MERGE_MSG
+Test
+/home/laveaum/Documents/personnal_Github/laveaumarie.github.io/index.htm
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
