@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>ET4 - Architecture mat&eacute;rielle et parall&egrave;le</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap-4.0.0-beta/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+	
+	
+	<!-- To include the nav bar -->
+	 <script src="https://www.w3schools.com/lib/w3.js"></script> 
+	
+	
+		<link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<style>
+	#conteneur {
+     position: relative;
+     left:75px;
+	 margin-bottom: 50px;  
+	}
+	</style>
+  </head>
+
+  <body>
+
+    <div w3-include-html="./nav.html"></div> 
+	<script>
+		w3.includeHTML();
+	</script> 
+
+    <div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">ET4 - Architecture mat&eacute;rielle et parall&egrave;le</h1>
+			<p>Responsable : Jo&euml;l Falcou</p>
+		
+			<h3> Slides de cours : </h3>
+				<h5><a href="./ET4_Archi/Slides/01_1-Introduction.pdf">Introduction</a> -  <a href="./ET4_Archi/Slides/01_2-Jeux d'instructions.pdf">Jeux d'instructions</a> - <a href="./ET4_Archi/Slides/02_1-Pipeline simple.pdf">Pipeline Simple</a> - <a href="./ET4_Archi/Slides/02_2-Problemes du pipeline.pdf">Probl&egrave;mes du pipeline</a> - <a href="./ET4_Archi/Slides/03_1-Caches_VM.pdf">Caches</a> - <a href="./ET4_Archi/Slides/03_2-ECS.pdf">ECS</a> - <a href="./ET4_Archi/Slides/04-main.pdf">Parall&eacute;lisation 1</a> - <a href="./ET4_Archi/Slides/04-archi_parallel.pdf">Parall&eacute;lisation 2</a></h5>
+			<br/>
+			<h3>Sujets TD/TP</h3>	
+			<div id="conteneur">				
+				<p class="lead"><h4>1 - TP MIPS : <a href="./ET4_Archi/1-TP_MIPS/01-TP_MIPS_Sujet.pdf">Sujet</a>  et <a href="./ET4_Archi/1-TP_MIPS/01-TP_MIPS_Fichiers.zip">fichiers mips</a> - <a href="./ET4_Archi/1-TP_MIPS/Help.pdf">Fichier d'aide</a> - <a href="./ET4_Archi/1-TP_MIPS/MIPS.pdf">MIPS</a> - <a href="./ET4_Archi/1-TP_MIPS/01-TP_MIPS_Correction.zip">Correction</a> </h4>
+					<div id="conteneur"> 
+						Nous allons utiliser <a href="http://courses.missouristate.edu/KenVollmar/MARS/download.htm">MARS (MIPS Assembler and Runtime Simulator)</a> pour le TP. <br/>
+						<b>Utilisateurs Unix :</b> T&eacute;l&eacute;charger les deux fichiers suivants dans un m&ecirc;me dossier : <a href="./ET4_Archi/1-TP_MIPS/mars_local.sh">mars_local.sh</a> et <a href="./ET4_Archi/1-TP_MIPS/Mars4_5.jar">mars4_5.jar</a>. <br/>
+						Lancer le script avec la commande bash <code>./mars_local.sh</code>. <br/>	
+						S'il n'y a pas d'erreur, lancer MARS avec la commande bash <code>~/usr/bin/mars.sh</code>. <br/>
+						<b>Utilisateurs Windows :</b> T&eacute;l&eacute;chargez <a href="./ET4_Archi/1-TP_MIPS/Mars4_5.jar">mars4_5.jar</a> et lancez le. 
+					</div>				
+				</p>
+
+				<p class="lead"><h4>2 - TD Flottants - Pipelines : <a href="./ET4_Archi/2-TD_Flottants/02-TD_Flottants_Sujet.pdf">Sujet</a> -  <a href="./ET4_Archi/2-TD_Flottants/02-TD_Flottants_Correction.pdf">Correction</a></h4> 			
+				</p>
+
+				<p class="lead"><h4>3 - TD Pipelines - Branchement : <a href="./ET4_Archi/3-TD_Pipeline/03-TD_Pipelines_Sujet.pdf">Sujet</a> (Exercice 3 seulement) - <a href="./ET4_Archi/3-TD_Pipeline/03_TD_Pipelines_Correction.pdf">Correction </a></h4> 			
+				</p>
+							
+				<p class="lead"><h4>4 - TD Cache : <a href="./ET4_Archi/4-TD_Caches/04-TD_Caches_Sujet.pdf">Sujet</a> - <a href="./ET4_Archi/4-TD_Caches/04-TD_Caches_Correction.pdf">Correction</a> </h4>
+				</p>	
+
+				<p class="lead"><h4>5 - TP Not&eacute; Caches : <a href="./ET4_Archi/5-TP_Caches/05-TP_Caches_Sujet_2020.pdf">Sujet</a> et <a href="./ET4_Archi/5-TP_Caches/TP_Cache_Fichiers_Godbolt.zip">Fichiers</a> </h4> Utiliser <a href="https://godbolt.org/"> https://godbolt.org/</a>
+
+				</p>	
+
+				<p class="lead"><h4>6 - TD Parall&egrave;lisme : <a href="./ET4_Archi/6-TD_Parallelisation/06_TD_Parallelisme_2020.pdf">Sujet</a> et <a href="./ET4_Archi/6-TD_Parallelisation/06_TD_Parallelisme_Correction_2020.pdf">Correction</a></h4>
+				</p>	
+
+				<!--<p class="lead"><h4>7 - TP Parall&egrave;lisme : <a href="./ET4_Archi/7-TP_Parallelisation/07_TP_Parallelisme.pdf">Sujet</a> et <a href="./ET4_Archi/7-TP_Parallelisation/07_TP_Fichiers.rar">Fichiers</a> </h4>
+				</p> -->	
+						
+			</div>			 
+		</div>
+	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./bootstrap-4.0.0-beta/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./bootstrap-4.0.0-beta/assets/js/vendor/popper.min.js"></script>
+    <script src="./bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrap-4.0.0-beta/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
