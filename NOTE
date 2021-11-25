@@ -1,0 +1,14 @@
+Pour la redirection, la prochaine fois : 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url='http://marie.laveau.free.fr'"/>
+  </head>
+  <body>
+    <p>Please follow <a href="http://marie.laveau.free.fr">this link</a>.</p>
+  </body>
+</html>
+
+Se connecter sur ovaz.imag.fr pour les pages perso de VERIMAG
+Dossier: /import/www-people/PEOPLE/{login}
